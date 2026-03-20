@@ -1,10 +1,10 @@
 # 🫀 Biomedical ML Analysis — Heart Disease Prediction
 
-A Python data science project that performs **Exploratory Data Analysis (EDA)** and trains **three machine learning models** to predict heart disease. Includes built-in synthetic data so anyone can run it instantly — no dataset download required.
+This project is a Python data science project that performs **Exploratory Data Analysis (EDA)** and trains **three machine learning models** to predict heart disease. This includes built-in synthetic data so anyone can run it instantly, meaning no dataset download is required.
 
 ---
 
-## 📊 What It Does
+##  What It Does
 
 | Step | Description | Output |
 |------|-------------|--------|
@@ -18,7 +18,7 @@ A Python data science project that performs **Exploratory Data Analysis (EDA)** 
 
 ---
 
-## 🚀 Quick Start (Windows, Mac, Linux)
+## How to start on Windows, Mac, Linux
 
 ### 1. Clone the repository
 ```bash
@@ -55,18 +55,18 @@ Results will appear in the `outputs/` folder.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 biomedical-ml-analysis/
 │
-├── analyze.py            ← Main script (run this)
-├── requirements.txt      ← Python dependencies
-├── README.md             ← You are here
+├── analyze.py            <- Main script (run this)
+├── requirements.txt      <- Python dependencies
+├── README.md             <- You are here
 │
-├── data/                 ← Drop your own CSV files here (optional)
+├── data/                 <- Drop your own CSV files here (optional)
 │
-└── outputs/              ← Auto-generated after running
+└── outputs/             <- Auto-generated after running
     ├── 01_eda.png
     ├── 02_correlation.png
     ├── 03_roc_curves.png
@@ -77,7 +77,7 @@ biomedical-ml-analysis/
 
 ---
 
-## 📋 CSV Format (if using your own data)
+## CSV Format (if using your own data)
 
 Your CSV must include these columns (standard Cleveland Heart Disease column names are auto-renamed):
 
@@ -102,11 +102,11 @@ Your CSV must include these columns (standard Cleveland Heart Disease column nam
 
 ---
 
-## 🧠 Models Used
+## The Models Used
 
-- **Logistic Regression** — interpretable baseline
-- **Random Forest** — ensemble method, used for feature importance
-- **Gradient Boosting** — typically highest AUC
+- **Logistic Regression** - interpretable baseline
+- **Random Forest** - ensemble method, used for feature importance
+- **Gradient Boosting** - typically highest AUC
 
 All models are evaluated with:
 - 5-fold stratified cross-validation
@@ -114,7 +114,7 @@ All models are evaluated with:
 
 ---
 
-## 🖼️ Sample Output
+## Sample Output
 
 After running, you'll see charts like these saved to `outputs/`:
 
@@ -126,13 +126,13 @@ After running, you'll see charts like these saved to `outputs/`:
 
 ---
 
-## 🔧 Requirements
+## Requirements to Run Project
 
 - Python 3.9+
 - See `requirements.txt` for packages
 
 ---
 
-## 📜 License
+## License
 
-MIT — free to use, modify, and share.
+MIT - free to use, modify, and share.
