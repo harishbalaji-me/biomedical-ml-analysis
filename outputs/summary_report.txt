@@ -1,0 +1,50 @@
+==============================================================
+  BIOMEDICAL ML ANALYSIS — HEART DISEASE PREDICTION
+  Summary Report
+==============================================================
+
+DATASET
+  Total patients   : 600
+  Features         : 13
+  Disease cases    : 335 (55.8%)
+  Healthy cases    : 265 (44.2%)
+  Train / Test split: 480 / 120
+
+MODEL RESULTS (Test Set)
+----------------------------------------
+
+  Logistic Regression
+    CV AUC   : 0.9985 ± 0.0026
+    Test AUC : 1.0000
+    Accuracy : 1.0000
+    Precision: 1.0000
+    Recall   : 1.0000
+    F1 Score : 1.0000
+
+  Random Forest
+    CV AUC   : 0.9551 ± 0.0171
+    Test AUC : 0.9809
+    Accuracy : 0.9333
+    Precision: 0.9336
+    Recall   : 0.9333
+    F1 Score : 0.9332
+
+  Gradient Boosting
+    CV AUC   : 0.9515 ± 0.0219
+    Test AUC : 0.9927
+    Accuracy : 0.9417
+    Precision: 0.9417
+    Recall   : 0.9417
+    F1 Score : 0.9416
+
+==============================================================
+  Best Model: Logistic Regression  (AUC = 1.0000)
+==============================================================
+
+OUTPUT FILES
+  outputs/01_eda.png                — EDA distributions
+  outputs/02_correlation.png         — correlation heatmap
+  outputs/03_roc_curves.png          — ROC curve comparison
+  outputs/04_confusion.png           — confusion matrices
+  outputs/05_feature_importance.png  — feature importance
+  outputs/summary_report.txt         — this file
