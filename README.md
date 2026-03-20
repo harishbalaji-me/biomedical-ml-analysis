@@ -1,4 +1,4 @@
-# 🫀 Biomedical ML Analysis — Heart Disease Prediction
+# Heart Disease Prediction ML Analysis
 
 This project is a Python data science project that performs **Exploratory Data Analysis (EDA)** and trains **three machine learning models** to predict heart disease. This includes built-in synthetic data so anyone can run it instantly, meaning no dataset download is required.
 
